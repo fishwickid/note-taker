@@ -1,0 +1,29 @@
+{
+  "name": "express-note-taker",
+  "version": "1.0.0",
+  "description": "App used to help people remember things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishwickid/note-taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker",
+    "cool",
+    "app"
+  ],
+  "author": "Chad Fishwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fishwickid/note-taker/issues"
+  },
+  "homepage": "https://github.com/fishwickid/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
