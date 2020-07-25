@@ -4,8 +4,9 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const fs = require('fs');
-const noteData = require('./db/db.json');
 
+
+let noteData = require('./db/db.json');
 
 // Connecting server to Herouko or PORT 3000 as a default
 let PORT = process.env.PORT || 3000;
